@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>I Am Open Source and So Can You</title>
+
+  <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
+  <link rel="stylesheet" href="./css/showoff.css" type="text/css"/>
+
+  <script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="./js/jquery-print.js"></script>
+  <script type="text/javascript" src="./js/jquery.batchImageLoad.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.doubletap-0.1.js"></script>
+
+  <script type="text/javascript" src="./js/fg.menu.js"></script>
+  <script type="text/javascript" src="./js/showoff.js"></script>
+  <script type="text/javascript" src="./js/jTypeWriter.js"> </script>
+  <script type="text/javascript" src="./js/sh_main.min.js"></script>
+  <script type="text/javascript" src="./js/core.js"></script>
+  <script type="text/javascript" src="./js/showoffcore.js"></script>
+
+  <link type="text/css" href="./css/fg.menu.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/theme/ui.all.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/sh_style.css" rel="stylesheet" >
+
+  
+    <link rel="stylesheet" href="file/slides.css" type="text/css"/>
+  
+
+  
+
+  <script type="text/javascript">
+  $(function(){
+    setupPreso(false, './');
+  });
+  </script>
+</head>
+
+<body>
+
+
+<a tabindex="0" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="navmenu"><span class="ui-icon ui-icon-triangle-1-s"></span>slides</a>
+<div id="navigation" class="hidden"></div>
+
+<div id="help">
+  <table>
+    <tr><td class="key">space, &rarr;</td><td>next slide</td></tr>
+    <tr><td class="key">&larr;</td><td>previous slide</td></tr>
+    <tr><td class="key">d</td><td>debug mode</td></tr>
+    <tr><td class="key">## &lt;ret&gt;</td><td>go to slide #</td></tr>
+    <tr><td class="key">c</td><td>table of contents (vi)</td></tr>
+    <tr><td class="key">f</td><td>toggle footer</td></tr>
+    <tr><td class="key">r</td><td>reload slides</td></tr>
+    <tr><td class="key">z</td><td>toggle help (this)</td></tr>
+  </table>
+</div>
+
+<div class="buttonNav">
+  <input type="submit" onClick="prevStep();" value="prev"/>
+  <input type="submit" onClick="nextStep();" value="next"/>
+</div>
+
+<div id="preso">loading presentation...</div>
+<div id="footer">
+  <span id="slideInfo"></span>
+  <span id="debugInfo"></span>
+</div>
+
+<div id="slides" class="offscreen" style="display:none;">
+<div class="slide" data-transition="none"><div class="content subsection" ref="talk/01_slide/1">
+<h1>I Am Open Source</h1>
+
+<h1>And So Can You</h1>
+
+<h2>Michael Bleigh</h2></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="talk/01_slide/2">
+<h1>One Goal:</h1>
+
+<h2>Remove any barriers you have</h2>
+
+<h2>to becoming an open sourcerer.</h2></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="talk/01_slide/3">
+<h1>Roadmap</h1>
+
+<ul>
+<li>Advantages of OSS (company)</li>
+<li>Advantages of OSS (individual)</li>
+<li>Being a good open source citizen</li>
+<li>Being a contributor</li>
+<li>Writing and maintaining your own libraries</li>
+<li>Q&amp;A (most important)</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="talk/01_slide/4">
+<h1>About Me</h1>
+
+<ul>
+<li>I'm a partner at <a href="http://intridea.com">Intridea</a>.</li>
+<li>I like Ruby.</li>
+<li>I design and code.</li>
+<li>I live in the crossroads (yay first fridays).</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="talk/01_slide/5">
+<h1>I've made some popular stuff</h1>
+
+<ul>
+<li>omniauth</li>
+<li>acts-as-taggable-on</li>
+<li>oauth2</li>
+<li>subdomain-fu</li>
+<li>hashie</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="talk/01_slide/6">
+<h1>And plenty of unpopular stuff</h1>
+
+<ul>
+<li>fetches</li>
+<li>from_param</li>
+<li>browserized-styles</li>
+<li>placebook</li>
+<li>pictopus</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content subsection" ref="talk/01_slide/7">
+<h1>So why do i do it?</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="talk/01_slide/8">
+<h1>Advantages (Company)</h1>
+
+<ul>
+<li>Better code</li>
+<li>Free work</li>
+<li>Happier coders</li>
+<li>Better coders</li>
+<li>Makes you money</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="talk/01_slide/9">
+<h1>Advantages (Individual)</h1>
+
+<ul>
+<li>Reputation</li>
+<li>You become better</li>
+<li>Warm fuzzy feeling</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="talk/01_slide/10">
+<h1>One other thing...</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="talk/01_slide/11">
+<h1>90% of the time I don't</h1>
+
+<h1>want to write open source</h1></div>
+</div><div class="slide" data-transition="none"><div class="content" ref="talk/01_slide/12">
+<h1>I want someone else to</h1>
+
+<h1>have already written it</h1></div>
+</div><div class="slide" data-transition="none"><div class="content subsection" ref="talk/01_slide/13">
+<h1>Being a Good Citizen</h1>
+
+<h1>is all about RESPECT</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="talk/01_slide/14">
+<h1>Open Source Users</h1>
+
+<ul>
+<li>Respect the gift.</li>
+<li>Respect the resources.</li>
+<li>Respect the chaos.</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="talk/01_slide/15">
+<h1>Open Source Contributors</h1>
+
+<ul>
+<li>Respect the process.</li>
+<li>Respect the tests.</li>
+<li>Respect the fork.</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="talk/01_slide/16">
+<h1>Open Source Authors</h1>
+
+<ul>
+<li>Respect the users.</li>
+<li>Respect the contributors.</li>
+<li>Respect the responsibility.</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets incremental" ref="talk/01_slide/17">
+<h1>Contributing to Open Source</h1>
+
+<ul>
+<li>Fork.</li>
+<li>Write changes, and tests.</li>
+<li>Use <strong>topic branches</strong> and <strong>atomic commits</strong></li>
+<li>Send a pull request and be patient.</li>
+<li>In the meantime, use Bundler.</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content" ref="talk/01_slide/18">
+<pre class="sh_Ruby"><code>gem 'some_gem', 
+  :git =&gt; "git://github.com/you/some_gem.git"</code></pre></div>
+</div><div class="slide" data-transition="none"><div class="content subsection" ref="talk/01_slide/19">
+<h1>Writing Open Source Libraries</h1></div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="talk/01_slide/20">
+<h1><code>bundle gem gem_name</code></h1>
+
+<ul>
+<li>Sets up Ruby-driven version.</li>
+<li>Sets up git-driven gemspec.</li>
+<li>All your deps are in the gemspec.</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="talk/01_slide/21">
+<h1>Tests are important.</h1>
+
+<ul>
+<li>Use RSpec or Test::Unit</li>
+<li>travis-ci.org</li>
+<li>Check pull requests for tests.</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="talk/01_slide/22">
+<h1>Documentation is important.</h1>
+
+<ul>
+<li><code>README</code></li>
+<li>rubydoc.info</li>
+<li>GitHub Wikis</li>
+<li>Blog Posts/Articles</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="talk/01_slide/23">
+<h1>Promotion is important.</h1>
+
+<ul>
+<li>Think of it as your tiny little product.</li>
+<li>ruby.reddit.com</li>
+<li>news.ycombinator.com</li>
+<li>rubyflow.com</li>
+<li>Twitter</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="talk/01_slide/24">
+<h1>Maintenance is important.</h1>
+
+<ul>
+<li><code>self == 'hypocrite'</code></li>
+<li>If you can't maintain, find someone who can or give notice.</li>
+<li>stillmaintained.com</li>
+<li>Keep your issues under control.</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content subsection" ref="talk/01_slide/25">
+<h1>So what's in your way?</h1></div>
+</div>
+</div>
+
+</body>
+</html>
